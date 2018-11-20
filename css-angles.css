@@ -1,0 +1,45 @@
+
+#bar ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: orange ;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
+#bar li {
+    display: inline;
+    text-align: center;
+    margin: 0 -5px 0 0;
+}
+#bar li a {
+    padding: 5px 5px 5px 5px ;
+    color:black ;
+    background-color:orange ;
+    border: 1px solid black ;
+    text-decoration: none;
+}
+#bar li a:hover{
+    background-color: rgba(255, 115, 0, 0.788) ;
+    color: black ;
+}
+body {
+    background-image: url(./16850.jpg)
+}
+section {
+    background-color: rgba(255, 255, 255, 0.795);
+    height: 720px;
+    width: 1250px;
+}
+body {
+    font-family: KeepTown;
+    src: url("./KreepTown.otf") format("OpenType");
+}
+h1 {
+    font-size: 200%;
+    text-align: center;
+    color: orange;
+}
+p {
+    font-size: 125%;
+    text-align: justify;
+}
